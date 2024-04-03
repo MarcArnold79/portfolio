@@ -33,6 +33,26 @@ ul.nav{
 }
 .mobleMenu{
     display: none;
+    position: relative;
+}
+.mNavItem{
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-bottom: 1px solid var(--Primary-extra-light);
+    color: var(--Primary);  
+}
+.mNavItem.selected{
+    font-weight: bold;
+    color: var(--Secondary-dark);
+}
+.mobileNav{
+    position: absolute;
+    right: -20px;
+    top: 30px;
+    background-color: white;
+    width: 100vw;
+    display: none;
 }
 section.hero{
     background: var(--Primary-gradient);
