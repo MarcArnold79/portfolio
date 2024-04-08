@@ -70,7 +70,6 @@ section.hero{
 }
 .heroContent{
     width: 647px;
-    padding:24px;
 }
 .heroTitle{
     font-size: var(--font-size-h1);
